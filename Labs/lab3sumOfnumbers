@@ -1,0 +1,11 @@
+## user prompt; enter number ##
+user_num = int(input("Enter a number: "))
+total_sum = 0
+
+
+## loop ##
+
+for i in range(1, user_num + 1):
+    total_sum += i
+## Print comm. ##
+print(f"The sum of numbers from 1 to {user_num} is {total_sum}.")
