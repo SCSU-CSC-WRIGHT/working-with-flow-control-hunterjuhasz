@@ -1,0 +1,9 @@
+## User prompt; enter number for countdown ##
+starting_num = int(input("Enter a number to start the countdown: "))
+
+
+## count ##
+
+while starting_num > 0:
+    print(starting_num)
+    starting_num -=1
